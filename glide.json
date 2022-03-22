@@ -1,0 +1,56 @@
+{
+  "kind": "column",
+  "name": "Carousel",
+  "description": "Carousel",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "img",
+      "displayName": "Image List (url separate by ',')",
+      "type": "string"
+    },
+    {
+      "name": "legend",
+      "displayName": "Legend List",
+      "type": "string"
+    },
+    {
+      "name": "delimiter",
+      "displayName": "Delimiter for legends list (default to comma)",
+      "type": "string"
+    },
+    {
+      "name": "dot_color",
+      "displayName": "Active dot color (default to #717171)",
+      "type": "string"
+    },
+    {
+      "name": "img_height",
+      "displayName": "Full Cloudinary resized height (default to 750px)",
+      "type": "number"
+    },
+    {
+      "name": "img_resized",
+      "displayName": "On-screen Cloudinary resized height (default to 375px)",
+      "type": "number"
+    },
+    {
+      "name": "fit",
+      "displayName": "Fit : cover, fill, contain, scale-down, none",
+      "type": "string"
+    },
+    {
+      "name": "shortcuts",
+      "displayName": "Shortcuts : dot, thumbnail",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "displayName": "Time (seconds), automatic slide",
+      "type": "number"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
