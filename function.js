@@ -122,7 +122,6 @@ window.function = function (img, legend,delimiter,dot_color,img_height,img_resiz
     }
 
     .slide img {
-      width: ${img_resized}px;
       height: ${img_resized}px;
       object-fit: ${objectFit};
     }
