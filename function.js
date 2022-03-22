@@ -186,7 +186,6 @@ window.function = function (img, legend,delimiter,dot_color,img_height,img_resiz
       top: 100%;
       margin-top: -35px;
       z-index: 3;
-      background-color: rgba(0, 0, 0, 0.6);
     }
 
     /* The dots/bullets/indicators */
