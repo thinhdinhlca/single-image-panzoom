@@ -135,32 +135,6 @@ window.function = function (img, legend,delimiter,dot_color,img_height,img_resiz
       z-index: 2;
     }
 
-    .prev {
-      left: -20px;
-    }
-
-    .next {
-      right: -20px;
-    }
-
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 20px;
-      user-select: none;
-      background-color: rgba(0, 0, 0, 0.8);
-      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-      z-index: 2;
-    }
-
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover,
     .next:hover {
