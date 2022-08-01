@@ -116,7 +116,7 @@ window.function = function (img, legend,delimiter,dot_color,img_height,img_resiz
       float: left;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: start;
       transition: all 1s;
       position: relative;
     }
@@ -124,7 +124,6 @@ window.function = function (img, legend,delimiter,dot_color,img_height,img_resiz
     .slide img {
       height: ${img_resized}px;
       object-fit: ${objectFit};
-      top: 0px;
     }
 
     .control {
